@@ -13,6 +13,11 @@ public class Ex2 {
 			System.out.println("짝수가 아니다.");
 		}
 		
+		System.out.println("-----삼항연산자로 출력");
+		
+		System.out.println(x%2 ==0 ? "짝수":"홀수");
+		// if문과 동일함
+		
 //		while(True) {
 //			
 //		} //무한루프
