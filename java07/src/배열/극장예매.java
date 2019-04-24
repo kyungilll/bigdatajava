@@ -1,14 +1,14 @@
-package java01;
+package ë°°ì—´;
 
 import java.util.Scanner;
 
-public class ±ØÀå¿¹¸Å {
+public class ê·¹ì¥ì˜ˆë§¤ {
 
 	public static void main(String[] args) {
-		// ±ØÀå¿¹¸Å 
+		// ê·¹ì¥ì˜ˆë§¤ 
 		
 				Scanner sc = new Scanner(System.in);
-				int[] seat = new int[10]; // 1~10¹ø ÀÚ¸®¹è¿­
+				int[] seat = new int[10]; // 1~10ë²ˆ ìë¦¬ë°°ì—´
 				System.out.println("--------------------");
 				for (int i = 0; i < seat.length; i++) {
 					System.out.print(" " +(i+1));
@@ -16,23 +16,23 @@ public class ±ØÀå¿¹¸Å {
 				System.out.println();
 				System.out.println("--------------------");
 				
-				while(true) { //¿¹¸ÅÀÔ·Â ½ÃÀÛ
+				while(true) { //ì˜ˆë§¤ì…ë ¥ ì‹œì‘
 					
-					System.out.print("¿¹¸ÅÇÒ ÀÚ¸®¸¦ ÀÔ·ÂÇÏ¼¼¿ä. > ");
-					int x = sc.nextInt()-1; //ÀÚ¸®´Â 1¹øºÎÅÍ ½ÃÀÛ
-						if(x<0 || x>9) { //¡Ú ¹è¿­ÀÇ °¹¼ö¿Í ÀÏÄ¡ÇÒ °æ¿ì¿¡¸¸ ¿¡·¯¶ä (11ÀÔ·ÂºÒ°¡)
-							System.out.println("¾ø´Â ÀÚ¸®ÀÔ´Ï´Ù.");
-							System.out.println("1~10¹ø±îÁö ÀÚ¸®¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+					System.out.print("ì˜ˆë§¤í•  ìë¦¬ë¥¼ ì…ë ¥í•˜ì„¸ìš”. > ");
+					int x = sc.nextInt()-1; //ìë¦¬ëŠ” 1ë²ˆë¶€í„° ì‹œì‘
+						if(x<0 || x>9) { //â˜… ë°°ì—´ì˜ ê°¯ìˆ˜ì™€ ì¼ì¹˜í•  ê²½ìš°ì—ë§Œ ì—ëŸ¬ëœ¸ (11ì…ë ¥ë¶ˆê°€)
+							System.out.println("ì—†ëŠ” ìë¦¬ì…ë‹ˆë‹¤.");
+							System.out.println("1~10ë²ˆê¹Œì§€ ìë¦¬ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 							System.out.println();
 						} else {
 						
 					
 					if (seat[x]==1) {
-						System.out.println("¡Ú¡ÚÀÌ¹Ì ¿¹¸ÅµÈ ÀÚ¸®ÀÔ´Ï´Ù.¡Ú¡Ú");
+						System.out.println("â˜…â˜…ì´ë¯¸ ì˜ˆë§¤ëœ ìë¦¬ì…ë‹ˆë‹¤.â˜…â˜…");
 					} else {
 						seat[x]=1;
 					}
-					// ¿¹¸Å°¡´ÉÇÑ ÀÚ¸®ÀÎÁö ¿©ºÎ
+					// ì˜ˆë§¤ê°€ëŠ¥í•œ ìë¦¬ì¸ì§€ ì—¬ë¶€
 					
 					int price = 0;
 					for (int i = 0; i < seat.length; i++) {
@@ -42,13 +42,13 @@ public class ±ØÀå¿¹¸Å {
 					System.out.println();
 					System.out.println(price);
 					System.out.println();
-					System.out.println("ÃÑ Æ¼ÄÏ°ª : " + price*10000 + "¿ø");
+					System.out.println("ì´ í‹°ì¼“ê°’ : " + price*10000 + "ì›");
 						}
 					
 						}
 					
 					
-				}// ¿¹¸ÅÀÔ·Â ³¡
+				}// ì˜ˆë§¤ì…ë ¥ ë
 				
 				
 			}
