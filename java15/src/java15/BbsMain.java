@@ -144,8 +144,9 @@ public class BbsMain {
 				String id = textField.getText();
 				try {
 					dao.delete(id);
-				} catch (Exception e2) {
+				} catch (Exception e1) {
 					System.out.println("오류발생");
+					e1.printStackTrace();
 				}
 			}
 		});

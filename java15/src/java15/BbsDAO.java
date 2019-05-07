@@ -22,7 +22,7 @@ public class BbsDAO {
 		Class.forName("com.mysql.jdbc.Driver");
 		System.out.println("1. 드라이버 설정 완료");
 		
-		url = "jdbc:mysql://localhost:3306/tacar";
+		url = "jdbc:mysql://localhost:3306/bigdata";
 		user = "root";
 		password = "1234";
 		 
