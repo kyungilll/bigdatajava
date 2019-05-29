@@ -1,0 +1,14 @@
+@charset "EUC-KR";
+
+body{
+	background: pink;
+}
+p {
+	color: blue;/*  */
+}
+h4 {
+	color: green;
+}
+h2{
+	color: blue;
+}
