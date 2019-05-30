@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	li{
+		list-style: none; /* 이미지, 위치 모양 정할 수 있음 */
+		float: left; /* (왼쪽)을 기준으로 떠다님 */
+		padding: 15px; /* li간의 간격(글자사이) */
+	}
+	
+	li:nth-child(2n+1) {
+	background: orange;
+	}
+	
+	li:nth-child(2n) {
+	background: red;
+	}
+	
+	li:first-child {
+	border-radius: 10px 0 0 10px /* 네 모퉁이를 시계방향으로 1,2,3,4번째 왼쪽 위, 아래만 굴림 */
+	}
+	
+	li:last-child {
+	border-radius: 0 10px 10px 0 
+	}
+	
+</style>
+</head>
+<body>
+	<ul>
+		<li>첫번째</li>
+		<li>두번째</li>
+		<li>세번째</li>
+		<li>네번째</li>
+		<li>다섯번째</li>
+		<li>여섯번째</li>
+		<li>일곱번째</li>
+	</ul>
+</body>
+</html>

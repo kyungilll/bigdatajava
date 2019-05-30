@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+		<style type="text/css">
+			input[type = "text"]{
+				background: red;
+			}
+			input[type = "password"]{
+				background: lime;
+			}
+			a:hover { /* 마우스를 올렸을 때 */ 
+				background: lime;
+				color: red;
+			}
+			a:visited {
+				background: silver;
+				color: green;
+			}	
+			div{ /* css에서 사용하기 위함, 영역을 만듦 */ 
+				width: 450px;
+				height: 25px;
+				background: yellow;
+				font: 50px;
+			}
+			div:hover { /* 마우스포인터를 올렸을 때 */
+				width: 50px;
+				height: 25px;
+				background: red;
+				color: green;
+				/* 동적인 것들은 자동완성 안됨 */
+				transition: all 1.5s linear;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+		HP
+		</div>
+		전화번호 : <input name="tel" type="text">
+		<br>
+		패스워드 : <input name="pw" type="password">
+		<br>
+		<a href="http://www.naver.com">네이버로</a>
+	</body>
+</html>

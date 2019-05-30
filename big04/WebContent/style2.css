@@ -1,0 +1,141 @@
+@charset "UTF-8";
+#total {
+	color=blue;
+	background-image: url(main.PNG);
+	width: 800px;
+	height: 1500px;
+	font-size: 20px;
+}
+#top{
+	width: 800px;
+	padding-left: 50;
+	height: 30px;
+	background: #152C8F;
+}
+#top li{
+	color:white;
+	list-style: none;
+	font: 10px;
+	float: left;
+	width: 100px;
+	height: 25px;
+	padding-left: 25px;
+	padding-top: 5px;
+	vertical-align: middle;
+}
+#top li:first-child{
+	border-radius: 10px 0 0 10px;
+}
+#top li:last-child{
+	border-radius: 0 10px 10px 0;
+}
+
+#top li:nth-child(2n+1) {
+	background: #354DB5;
+	box-shadow: 5px 5px #5063B5;
+}
+#top li:nth-child(2n) {
+	background: #4F62B4;
+	box-shadow: 5px 5px #6077DB;
+}
+a:hover {
+	text-decoration: inherit;
+	font-family: 궁서;
+	font-size: 20px;
+	color: #BCC9FF;
+	/* none 마우스올리면 하이퍼링크 밑줄이 사라지게끔 */
+}
+a {
+	text-decoration: inherit;
+	/* font-family: 궁서; */
+	font-size: 20px;
+	color: #FFEA95;
+}
+
+#content{
+	color:white;
+	padding-top: 20px;
+	/* background: #4D60B1; */
+	width: 800px;
+	height: 100px;
+}
+
+
+tr{
+	width: 300;
+}
+.t1{
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+t1.hover{
+	background: lime;
+	font-weight: bold;
+}
+.t2{
+	width: 100px;
+	font-weight: bold;
+}
+.t3{
+	text-align: center;
+}
+
+input[type="submit"]:hover{
+	color=white;
+	font-family: 바탕;
+	font-size:30px;
+}
+input[type="text"] {
+	font-size: 25px;
+	color: #4D60B1;
+	font-weight: bold;
+	font-family: 궁서;
+}
+#top2{
+	padding-right:50px;
+	padding-top:100px;
+	top: 5px;
+	right: 5px;
+	position: fixed;
+	width: 150px;
+	height: 80px;
+	font-size: 3px;
+	font-weight: bold;
+	/* background: white; */
+	color: yellow;
+	/* box-shadow: 10px 10px white; */
+}
+#top2 li{
+	font-size: 8px;
+	background: white;
+	width: 120px;
+	height: 25px;
+}
+
+	
+}
+#top2 li:first-child{
+	border-radius: 10px 10px 0 0;
+}
+#top2 li:last-child{
+	border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
