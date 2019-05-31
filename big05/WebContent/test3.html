@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function plus(x1,x2) {
+	var x1 = parseInt(x1.value);
+	var x2 = parseInt(x2.value);
+	var x = x1+x2;
+	location.href="test3.jsp?x="+x;
+}
+function minus(x1,x2) {
+	var x1 = parseInt(x1.value);
+	var x2 = parseInt(x2.value);
+	var x = x1-x2;
+	location.href="test3.jsp?x="+x;
+}
+function mul(x1,x2) {
+	var x1 = parseInt(x1.value);
+	var x2 = parseInt(x2.value);
+	var x = x1*x2;
+	location.href="test3.jsp?x="+x;
+}
+function div(x1,x2) {
+	var x1 = parseInt(x1.value);
+	var x2 = parseInt(x2.value);
+	var x = x1/x2;
+	location.href="test3.jsp?x="+x;
+}
+</script>
+</head>
+<body>
+	<h1>사칙연산</h1>
+	첫 번째 수 : <input type="text" name="id" id="x1"><br>
+	두 번째 수 : <input type="text" name="id" id="x2"><br>
+	<button type="button" onclick="plus(x1,x2)">더하기</button>
+	<button type="button" onclick="minus(x1,x2)">빼기</button>
+	<button type="button" onclick="mul(x1,x2)">곱하기</button>
+	<button type="button" onclick="div(x1,x2)">나누기</button>
+</body>
+</html>

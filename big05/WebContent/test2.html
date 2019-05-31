@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function go() {
+	var data1 = document.getElementById("content");
+	var data = data1.value;
+	
+	location.href = "test2.jsp?content="+data;
+}
+</script>
+</head>
+<body>
+게시판 : <input type="text" name="id" id="content"><br>
+<button type="button" onclick="go()">GO</button>
+</body>
+</html>

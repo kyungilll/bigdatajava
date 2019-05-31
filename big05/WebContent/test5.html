@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function go(x) {
+	if(x == "1"){
+		location.href = "http://www.naver.com";
+	} else if (x == "2"){
+		location.href = "http://www.daum.net";
+	} else {
+		location.href = "http://www.google.com";
+	}
+}
+</script>
+</head>
+<body>
+1.네이버 <br>2.다음 <br> 3.구글<br>
+번호입력 <input type="text" name="id" id="x">
+<button type="button" onclick="go(x)">Go</button>
+</body>
+</html>

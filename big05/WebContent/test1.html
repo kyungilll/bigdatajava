@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function go(){
+	
+	var ids = document.getElementById("id");
+	var id = ids.value;
+	var tels = document.getElementById("tel");
+	var tel = tels.value;
+	
+	location.href = "test1.jsp?id="+id+"&tel="+tel;
+}
+</script>
+</head>
+<body>
+	ID : <input type="text" name="id" id="id"> <br>
+	TEL : <input type="text" name="id" id="tel"> <br>
+	<button type="button" onclick="go()">GO</button>
+</body>
+</html>

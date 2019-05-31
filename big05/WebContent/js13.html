@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function check() {
+		//alert("내가 호출됨")
+		//var data = document.getElementByID("#id");
+		
+		var data1 = document.getElementById("id"); //id라는 노드를 선택
+		var data2 = data1.value; //입력값 추출
+		var data3 = document.getElementById("pw"); //id라는 노드를 선택
+		var data4 = data3.value; //입력값 추출
+		var data5 = document.getElementById("name"); //id라는 노드를 선택
+		var data6 = data5.value; //입력값 추출
+		var data7 = document.getElementById("tel"); //id라는 노드를 선택
+		var data8 = data7.value; //입력값 추출
+
+		
+		//alert(data2.length);
+		
+		if(data2.length>=5){
+			location.href = "js.jsp?id="+data2+"&pw="+data4+"&name="+data6+"&tel="+data8;
+			
+			//alert("다섯글자에 적합")
+		} else {
+			location.href="js13.html";
+			alert("다섯글자에 부적합 / 다시 입력하세요.")
+		}
+	}
+</script>
+</head>
+<body>
+	<h1>회원가입</h1>
+	ID : <input type="text" name="id" id="id"> <br>
+	PW : <input type="text" name="id" id="pw"> <br>
+	NAME :	<input type="text" name="id" id="name"> <br>
+	TEL :	<input type="text" name="id" id="tel">	<br>
+	<button type="button" onclick="check()">회원가입</button>
+
+</body>
+</html>

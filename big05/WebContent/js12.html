@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function check() {
+		//alert("내가 호출됨")
+		var data = document.getElementById("id"); //id라는 노드를 선택
+		var data2 = data.value; //입력값 추출
+		//alert(data2.length);
+		
+		if(data2.length>=5){
+			//location.href = "js.jsp";
+			/* alert("다섯글자에 적합") */
+		} else {
+			//location.href="js12.html";
+			alert("다섯글자에 부적합 / 다시 입력하세요.")
+		}
+	}
+</script>
+</head>
+<body>
+	<h1>회원가입</h1>
+	<input type="text" name="id" id="id">
+	<br>
+	<button type="button" onclick="check()">회원가입</button>
+
+</body>
+</html>

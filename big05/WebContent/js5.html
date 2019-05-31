@@ -1,0 +1,48 @@
+<!DOCTYPE html> <!-- 함수만들기 -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+// document.write("body에 출력될 내용");
+// alert("나타날 내용");
+// prompt("입력하세요");
+// function 함수이름(파라메타);
+
+
+	/* 입력값 없는 함수 */
+	function call(){
+		alert("나는 call함수");
+	}
+	
+	function call2(){
+		alert("나는 call2함수");
+	}
+	/* call();
+	call2(); */
+	
+	/* 입력값 있는 함수 */
+	function call3(msg){
+		alert("전달받은 메세지는 : " + msg);
+	}
+	/* input = prompt("메세지를 입력하세요.");
+	call3(input); */
+	
+	function call4(sub, price){
+		alert(sub + "과목의 가격은 :" + price)
+	}
+	input1 = prompt("과목명 입력");
+	input2 = parseInt(prompt("가격 입력"));
+	
+	call4(input1,input2);
+	
+	
+</script>
+	
+
+</head>
+<body>
+
+</body>
+</html>

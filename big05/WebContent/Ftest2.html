@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script type="text/javascript">
+		function myFunction() {
+			var d = new Date();
+			var x = parseInt(d.getHours())
+			if(x>=7 && x<13){
+				document.write("지금시간은" + d.getHours() + "시");
+								document.write("좋은아침");
+			} else if (x>=13 && x<21){
+				document.write("지금시간은" + d.getHours() + "시");
+								document.write("좋은오후");
+			} else {
+				document.write("지금시간은" + d.getHours() + "시");
+								document.write("좋은기타시간");
+			}
+		}
+	</script>
+	<p id="demo"></p>
+</head>
+<body>
+
+	<button onclick="myFunction()">Try it</button>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+var x;
+function plus(x) {
+	alert(x);
+	x = parseInt(x);
+	x = x+1;
+	alert(x);
+	location.href="test4.html?x="+x;
+}
+function mibus(x) {
+	x = x-1;
+	return x;
+}
+function reset(x) {
+	x = 0;
+	return x;
+}
+
+</script>
+</head>
+<body>
+	<script type="text/javascript">
+
+	
+	document.write(x);
+</script>
+	<button type="button" onclick="plus(x)">1더하기</button>
+	<button type="button" onclick="minus(x)">1빼기</button>
+	<button type="button" onclick="reset(x)">초기화</button>
+</body>
+</html>

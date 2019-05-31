@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	//document.write("body에 출력될 내용");
+	//alert("나타날 내용");
+	//prompt("입력하세요");
+	//function 함수이름(파라메타);
+	//parseInt()
+	//console.log(); 입력받기 전 찍어보기
+	
+	
+	alert("환영합니다.");
+	x1 = parseInt(prompt("총 커피 가격을 입력하세요."));
+	x2 = parseInt(prompt("인원 수를 입력하세요."));
+	
+	function call(x1,x2) { // 1차 지불금액 계산
+		alert("1차 : 인당 지불할 금액은 " + (x1 / x2) + "원");
+		price = x1/x2;
+		console.log(price);
+		call2(parseInt(price));
+	}
+	
+	function call2(price) { // 최종 지불금액을 계산하는 함수
+		
+		if (price>=3000){
+			alert("최종 : 인당 지불할 금액은" + (price-300) + "원");
+		} else {
+			alert("최종 : 인당 지불할 금액은" + (price) + "원");
+		}
+	}
+	
+	call(x1,x2);
+</script>
+</head>
+<body>
+
+</body>
+</html>
