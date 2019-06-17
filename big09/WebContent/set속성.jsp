@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		session.setAttribute("id", "apple");
+		application.setAttribute("count", 100);
+		//세션과 어플리케이션 차이 > 언제까지 값을 가지고 있는가
+	%>
+
+	세션값 출력 : ${id}
+	<br> 어플값 출력 : ${count}
+	<br>
+	<hr>
+	<%
+		int c = (int) application.getAttribute("count");
+		// 포장클래스 > 랩핑클래스
+		int total = c + 1;
+		application.setAttribute("count", total);
+		
+	%>
+	<a href="set속성2.jsp">set속성2</a>
+</body>
+</html>
