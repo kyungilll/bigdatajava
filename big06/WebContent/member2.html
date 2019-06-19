@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function code() {
+	alert("인증번호 : 1234")
+}
+function join() {
+	
+}
+function check() {
+	var pw1 = $("#pw");
+	var pw2 = $("#pw2");
+	
+	if (pw1.value != pw2.value){
+		showErrorMsg(oMsg, "비밀번호가 일치하지 않습니다.");
+		pswd2.val("");
+		return false;
+	}
+}
+</script>
+</head>
+<body>
+<h1 color="green">NAVER</h1>
+<form action="member2.jsp">
+아이디 <br>
+<input type="text" name="id"><br>
+비밀번호 <br>
+<input type="text" name="pw"><br>
+비밀번호 재확인 <br>
+<input type="text" name="pw2"><br>
+이름 <br>
+<input type="text" name="name"><br>
+생년월일 <br> 
+
+		<input type="text" name="year" value="년(4자)"> 
+		<select	name="month">
+			<option value="1">1월</option>
+			<option value="2">2월</option>
+			<option value="3">3월</option>
+			<option value="4">4월</option>
+			<option value="5">5월</option>
+			<option value="6">6월</option>
+			<option value="7">7월</option>
+			<option value="8">8월</option>
+			<option value="9">9월</option>
+			<option value="10">10월</option>
+			<option value="11">11월</option>
+			<option value="12">12월</option>
+		</select> <input type="text" name="day" value="일"><br>
+		
+성별 <br> 
+		<select name="gender" value="성별">
+			<option value="male">남성</option>
+			<option value="female">여성</option>
+		</select> <br>
+본인 확인 이메일(선택) <br><br>
+<input type="text" name="mail" value="선택입력"><br>
+
+휴대전화<br> 
+		<select name="nation" value="대한민국 +82">
+			<option value="korea">대한민국 +82</option>
+			<option value="japan">일본 +81</option>
+		</select><br>
+		<input type="text" name="phone" value="전화번호 입력">
+		<button type="button" onclick="code()">인증번호 받기</button><br>
+		<input type="text" name="code" value="인증번호를 입력하세요"><br>
+		<input type="submit" value="가입하기">
+
+	</form>
+</body>
+</html>
