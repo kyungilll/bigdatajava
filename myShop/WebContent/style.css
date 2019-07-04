@@ -1,0 +1,11 @@
+@charset "UTF-8";
+#menu{
+	background-color: #07d3f7;
+}
+
+ul, li {
+	list-style: none;
+}
+.top {
+	font-size: 30px;
+}
