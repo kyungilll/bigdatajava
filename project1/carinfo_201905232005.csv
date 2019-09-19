@@ -1,0 +1,6 @@
+brand,type,price,distance,year,location,color,fuel,transmission,opt,guarantee,namber,cname,img,cnum,cid
+hyundai,subcompact,1300,20000,16,seoul,black,gasoline,Auto,Y,Y,1111,ACCENT,ACCENT.png,10,jung
+samsung,midsize,1700,10000,19,busan,white,gasoline,Auto,N,N,2222,CLIO,CLIO.png,10,kim
+chevrolet,subcompact,2000,5000,18,seoul,white,diesel,Auto,Y,Y,3333,CRUISE,CRUISE.png,10,min
+genesis,rv,4000,12000,18,busan,black,gasoline,Auto,Y,Y,4444,GENESIS,GENESIS.png,10,park
+hyundai,subcompact,1300,20000,16,seoul,black,gasoline,Auto,Y,Y,5555,ACCENT,ACCENT.png,10,jung

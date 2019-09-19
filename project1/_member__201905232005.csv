@@ -1,0 +1,5 @@
+"id","pw","pwcheck","name","birth","gender","address","phone","pwask","ownnered","email","purpose","adminkey","bid","bprice"
+jung,"1","1",jung,"0303",male,busan,"010-3333-3333","3",Y,jung@naver.com,GM,admin,,
+kim,"1","1",kim,"0101",male,seoul,"010-1111-1111","1",Y,kim@naver.com,Sell,"",,
+min,"1","1",min,"0404",male,seoul,"010-4444-4444","1",Y,min@naver.com,GM,admin,,
+park,"1","1",park,"0202",woman,seoul,"010-2222-2222","2",Y,park@naver.com,Buy,"",,
